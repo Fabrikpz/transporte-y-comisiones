@@ -6,15 +6,20 @@ export default function Contact() {
             <h2>Contacto</h2>
             <p>📞 Teléfono: 351-XXX-XXXX</p>
             <p>📍 Estamos en Villa Dolores, Córdoba</p>
-            <Map />
+
             <a
                 href="https://wa.me/54351XXXXXXX"
                 target="_blank"
-                rel="noreferrer"
-                className="btn btn-success mt-3"
+                rel="noopener noreferrer"
+                className="btn btn-success"
             >
                 Escribinos por WhatsApp
             </a>
+
+            {/* Mapa embebido con depósitos */}
+            <div className="mt-4">
+                <Map />
+            </div>
         </section>
     );
 }
