@@ -8,7 +8,7 @@ export default function Contact() {
             <p>📍 Estamos en Villa Dolores y en Córdoba</p>
 
             <a
-                href="https://wa.me/54351XXXXXXX"
+                href="https://wa.me/543515501909"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-success"

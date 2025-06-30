@@ -5,7 +5,7 @@ export default function GalleryCarousel() {
         { src: '/assets/foto1.png', alt: 'Foto 1' },
         { src: '/assets/foto2.png', alt: 'Foto 2' },
         { src: '/assets/vehiculo-y-mula.png', alt: 'Vehículo y mula' },
-        { src: '/assets/deposito.png', alt: 'Foto 2' },
+        { src: '/assets/deposito.png', alt: 'Depósito' },
         { src: '/assets/foto3.png', alt: 'Foto 3' },
         { src: '/assets/foto4.png', alt: 'Foto 4' },
         { src: '/assets/mercancia.png', alt: 'Mercancía' },
@@ -22,7 +22,7 @@ export default function GalleryCarousel() {
                     <Carousel.Item key={idx}>
                         <img
                             className="d-block w-100"
-                            src={img.src}
+                            src={process.env.PUBLIC_URL + img.src}
                             alt={img.alt}
                             style={{ maxHeight: '400px', objectFit: 'cover' }}
                         />

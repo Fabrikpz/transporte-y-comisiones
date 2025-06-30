@@ -1,5 +1,5 @@
 const heroStyle = {
-    backgroundImage: 'url(/assets/vehiculo-y-mula.png)',
+    backgroundImage: `url(${process.env.PUBLIC_URL + "/assets/vehiculo-y-mula.png"})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',

@@ -6,7 +6,7 @@ export default function About() {
                 <div className="col-md-6">
                     <div className="card">
                         <img
-                            src="/assets/trabajando.png"
+                            src={process.env.PUBLIC_URL + "/assets/trabajando.png"}
                             alt="Equipo de trabajo"
                             className="img-fluid rounded shadow"
                         />

@@ -22,7 +22,7 @@ export default function Coverage() {
 
                 <div className="text-center mt-4">
                     <img
-                        src="/assets/deposito.png"
+                        src={process.env.PUBLIC_URL + "/assets/deposito.png"}
                         alt="Depósito"
                         className="img-fluid rounded shadow"
                         style={{ maxHeight: '400px', width: '100%', objectFit: 'cover' }}

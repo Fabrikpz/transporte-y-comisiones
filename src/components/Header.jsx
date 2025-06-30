@@ -3,7 +3,7 @@ export default function Header() {
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary px-3">
             <a className="navbar-brand d-flex align-items-center" href="#">
                 <img
-                    src="/assets/logo.png"
+                    src={process.env.PUBLIC_URL + "/assets/logo.png"}
                     alt="Logo"
                     style={{ height: "40px", marginRight: "10px" }}
                 />

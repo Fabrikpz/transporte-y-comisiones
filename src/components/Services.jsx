@@ -24,7 +24,7 @@ export default function Services() {
                                 }}
                             >
                                 <img
-                                    src={service.image}
+                                    src={process.env.PUBLIC_URL + service.image}
                                     alt={service.title}
                                     style={{
                                         height: '100%',
